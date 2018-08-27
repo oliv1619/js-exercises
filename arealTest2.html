@@ -8,15 +8,21 @@
 
 <body>
     <script>
+        //erklæring af variabler: lenght, width og areal
         let lenght = 1000;
         let width = 10000;
+        //udregn areal
         let areal = lenght * width;
-
+        //hvis areal er under 100
         if (areal < 100) {
             console.log("Arealet er for lille");
-        } else if (areal >= 100 && areal <= 200) {
+        }
+        //hvis arealet er mellem 100 og 200
+        else if (areal >= 100 && areal <= 200) {
             console.log("Arealet er passende");
-        } else if (areal >= 200) {
+        }
+        //hvis arealet er over 200
+        else if (areal >= 200) {
             console.log("Arealet er for stort");
         }
     </script>
